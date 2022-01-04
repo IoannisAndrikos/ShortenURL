@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .forms import getURL
-from .callAPIs import culltyShorten
+from .callAPIs import cuttlyShorten
 
 
 def ShortenURL(request):

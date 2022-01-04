@@ -1,4 +1,4 @@
-from dashboard.callAPIs import culltyShorten
+from dashboard.callAPIs import cuttlyShorten
 import unittest
 from unittest.mock import Mock, patch
 import json
@@ -12,7 +12,7 @@ class shortenPathURL(unittest.TestCase):
          mock_get.return_value = resp
         
          url = 'https://www.youtube.com/watch?v=5E_xLmQXOZg'
-         short_url = culltyShorten(url)
+         short_url = cuttlyShorten(url)
          print(short_url)
          self.assertNotEqual(short_url, 'Error')
          self.assertEqual(short_url, "this is a test")
@@ -24,7 +24,7 @@ class shortenPathURL(unittest.TestCase):
         mock_get.return_value = resp
         
         url = 'https://www.youtube.com/watch?v=5E_xLmQXOZg'
-        short_url = culltyShorten(url)
+        short_url = cuttlyShorten(url)
         print(short_url)
         self.assertEqual(short_url, 'Error')
 
@@ -34,6 +34,6 @@ class shortenPathURL(unittest.TestCase):
         mock_get.return_value = resp
 
         url = 'https://www.youtube.com/watch?v=5E_xLmQXOZg'
-        short_url = culltyShorten(url)
+        short_url = cuttlyShorten(url)
         print(short_url)
         self.assertEqual(short_url, 'Server Failed')

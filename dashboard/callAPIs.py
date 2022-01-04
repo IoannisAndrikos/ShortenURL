@@ -1,8 +1,8 @@
 import requests
 
-def culltyShorten(url):
+def cuttlyShorten(url):
 
-    api_key = 'CREAT AN API KEY IN CULLTY WEBSITE AND PUT IT HERE'
+    api_key = 'CREAT AN API KEY IN CUTTLY WEBSITE AND PUT IT HERE'
 
     # preferred name in the URL
     api_url = f"https://cutt.ly/api/api.php?key={api_key}&short={url}"
