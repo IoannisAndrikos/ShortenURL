@@ -2,12 +2,11 @@
 
 **Description**
 
- An API integrated in Django framework for shorting an URL. Moreover, unit tests are included into the project
+ An service integrated in Django framework for shorting an URL. Moreover, unit tests are included into the project
 
-**Service API:**
+**Service:**
 
- Call cullty short url functionality
-[see the link here](https://www.youtube.com/watch?v=rHux0gMZ3Eg&t=1205s/)
+ Call cuttly API to shorten a url link 
 
 **TODOs:**
 
