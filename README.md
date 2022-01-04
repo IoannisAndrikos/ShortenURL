@@ -2,7 +2,7 @@
 
 **Description**
 
- An service integrated in Django framework for shorting an URL. Moreover, unit tests are included into the project
+ A project integrated in Django framework for shorting an URL. Unit tests are included.
 
 **Service:**
 
